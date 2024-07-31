@@ -78,7 +78,7 @@ const WebDev = () => {
               <ul className='max-w-[569px] h-fit grid grid-cols-1 gap-8 text-lg'>
                 {services.map((service, index) => (
                   <li key={index} className='flex flex-row gap-4 items-center'>
-                    <FaCheck className='text-accent' />
+                    <FaCheck className='text-accent text-2xl' />
                     <div>
                       <h2>{service.title}</h2>
                       <p className='text-white/60'>{service.description}</p>
