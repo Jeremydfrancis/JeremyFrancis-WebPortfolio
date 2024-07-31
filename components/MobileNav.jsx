@@ -37,7 +37,7 @@ function MobileNav() {
       </SheetTrigger>
       <SheetContent className='flex flex-col' role='dialog' aria-labelledby='mobile-menu-title'>
         {/* LOGO */}
-        <div className='mt-32 mb-40 text-center text-2xl'>
+        <div className='mt-32 mb-32 text-center text-2xl'>
           <Link href='/' aria-label='Homepage'>
             <h1 id='mobile-menu-title' className='text-4xl font-semibold'>
               Jeremy<span className='text-accent'>.</span>
