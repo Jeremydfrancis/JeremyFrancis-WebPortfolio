@@ -22,7 +22,7 @@ interface FormData {
 
 export const sendEmail = async (formData: FormData): Promise<void> => {
   const mailOptions = {
-    from: `"${formData.firstName} ${formData.lastName}" <${formData.email}>`, // sender address
+    from: `'${formData.firstName} ${formData.lastName}' <${formData.email}>`, // sender address
     to: process.env.EMAIL_USER, // list of receivers
     subject: 'You have a new message from your portfolio website', // Subject line
     text: `
@@ -48,7 +48,7 @@ export const sendEmail = async (formData: FormData): Promise<void> => {
         console.error('Connection error:', error);
         reject(error);
       } else {
-        console.log("Server is ready to take our messages");
+        console.log('Server is ready to take our messages');
         resolve(success);
       }
     });
