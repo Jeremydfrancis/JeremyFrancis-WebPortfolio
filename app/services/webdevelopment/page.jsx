@@ -7,27 +7,27 @@ import Head from 'next/head';
 const services = [
   {
     title: 'Custom Website Design and Development',
-    description: 'Whether you need a business website, an e-commerce platform, or a personal blog, I design and develop tailored solutions that align with your vision and goals.'
+    
   },
   {
     title: 'Responsive Web Design',
-    description: 'Ensuring your website looks and works perfectly on all devices, from desktops to smartphones, enhancing user experience and engagement.'
+    
   },
   {
     title: 'E-Commerce Solutions',
-    description: 'Building robust online stores with intuitive interfaces, secure payment integrations, and advanced functionalities to boost your sales and manage your inventory efficiently.'
+    
   },
   {
     title: 'Content Management Systems (CMS)',
-    description: 'Implementing versatile CMS solutions that empower you to manage and update your website’s content easily without needing technical expertise.'
+    
   },
   {
     title: 'Performance Optimization',
-    description: 'Enhancing your website speed and efficiency to improve user satisfaction and SEO rankings.'
+    
   },
   {
     title: 'Website Maintenance and Updates',
-    description: 'Providing ongoing support to keep your website up-to-date with the latest technologies and security standards.'
+   
   }
 ];
 
@@ -81,7 +81,7 @@ const WebDev = () => {
                     <FaCheck className='text-accent text-2xl' />
                     <div>
                       <h2>{service.title}</h2>
-                      <p className='text-white/60'>{service.description}</p>
+                      
                     </div>
                   </li>
                 ))}
