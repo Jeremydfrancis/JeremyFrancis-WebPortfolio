@@ -7,8 +7,9 @@ Welcome to my personal portfolio website! This site showcases my work, skills, a
 To get started with this project, follow these steps:
 
 1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/Jeremydfrancis/JeremyFrancis-WebPortfolio.git
+```bash
+git clone https://github.com/Jeremydfrancis/JeremyFrancis-WebPortfolio.git
+```
    
 2. **Navigate to the Project Directory**:
  ```bash
