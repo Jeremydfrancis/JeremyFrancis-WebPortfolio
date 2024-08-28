@@ -10,15 +10,15 @@ To get started with this project, follow these steps:
    ```bash
    git clone https://github.com/Jeremydfrancis/JeremyFrancis-WebPortfolio.git
    
-2. Navigate to the Project Directory:
+2. **Navigate to the Project Directory**:
  ```bash
 cd JeremyFrancis-WebPortfolio
 ```
-3. Install Dependencies:
+3. **Install Dependencies**:
 ```bash
 npm install
 ```
-4. Run the Development Server:
+4. **Run the Development Server**:
 ```bash
 npm run dev
 ```
