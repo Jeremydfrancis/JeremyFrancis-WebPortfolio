@@ -4,17 +4,25 @@ Welcome to my personal portfolio website! This site showcases my work, skills, a
 
 ## 🚀 Getting Started
 
-To run the project locally, start the development server:
+To get started with this project, follow these steps:
 
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Jeremydfrancis/JeremyFrancis-WebPortfolio.git
+   
+2. Navigate to the Project Directory:
+ ```bash
+cd JeremyFrancis-WebPortfolio
+```
+3. Install Dependencies:
+```bash
+npm install
+```
+4. Run the Development Server:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+
 Open http://localhost:3000 to view it in your browser. You can start editing the page by modifying app/page.js, and the page will auto-update as you make changes.
 OR
 [Click to see it live](https://jeremydfrancis.dev/)
