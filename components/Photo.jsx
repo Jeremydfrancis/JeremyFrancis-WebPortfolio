@@ -22,13 +22,13 @@ function Photo() {
           className='w-[258px] h-[258px] xl:w-[500px] xl:h-[400px] mix-blend-overlay absolute top-5 left-6 xl:top-7 xl:left-0 z-10'
         >
           <Image
-            src='/JeremyHeadshot.png'
+            src='/TestPhoto.png'
             priority
             quality={100}
             fill
             sizes='(max-width: 1279px) 298px, 498px'
             alt='photo of jeremy'
-            className='object-contain rounded-full'
+            className='object-fill rounded-full'
           />
         </motion.div>
 

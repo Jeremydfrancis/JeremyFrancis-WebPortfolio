@@ -8,6 +8,10 @@ import {
   FaReact,
   FaFigma,
   FaNodeJs,
+  FaWordpress,
+  FaPhp,
+  FaRobot,
+  FaGoogle,
 } from 'react-icons/fa';
 import { SiTailwindcss, SiNextdotjs } from 'react-icons/si';
 import Link from 'next/link';
@@ -17,7 +21,7 @@ import Head from 'next/head';
 const about = {
   title: 'About me',
   description:
-    'As an 8-year Combat Veteran in the West Virginia Army National Guard, where I earned an honorable discharge and multiple awards for exemplary service, including a deployment to Syria from 2019-2020, I bring a unique discipline and resilience to the tech world. As a Front-End Developer, I excel in HTML, CSS, JavaScript, and React JS, creating intuitive and dynamic user experiences. My expertise in UI/UX design and Figma, combined with a proven ability to collaborate effectively, ensures the delivery of visually appealing and functional interfaces. Eager to continuously learn and innovate, I am ready to bring my skills to a forward-thinking team and tackle new challenges in web development.',
+    'I’m an 8-year Army National Guard veteran with proven discipline and resilience, now building fast, scalable websites with React, Next.js, Tailwind CSS, and WordPress. I pair strong UI/UX design skills in Figma with hands-on experience managing 50+ client sites for performance and usability. I’m also expanding into UiPath RPA, streamlining workflows through automation. Always ready to learn and tackle new challenges, I’m committed to delivering smart, user-focused solutions.',
   info: [
     {
       fieldName: 'Name',
@@ -56,9 +60,14 @@ const experience = [
         duration: '2015 - 2023',
       },
       {
-        company: 'Front-End Developer',
+        company: 'Web Developer',
         position: 'Freelance',
         duration: '2022 - Present',
+      },
+       {
+        company: 'Blackwell & Co.',
+        position: 'Wordpress Developer - Contract',
+        duration: '2024 - Present',
       },
     ],
   },
@@ -72,6 +81,24 @@ const certification = [
     description:
       'Embark on a journey through my professional development, where each certification not only enhances my technical skills but also strengthens my capabilities in delivering cutting-edge web solutions. From design fundamentals to advanced development techniques, these credentials represent a steadfast commitment to excellence and continuous learning in the ever-evolving tech landscape.',
     items: [
+      {
+        href: 'https://coursera.org/verify/professional-cert/YTKXYT559HL4',
+        institution: 'Meta',
+        degree: 'Meta Front-End Developer',
+        date: '2025',
+      },
+      {
+        href: 'https://credentials.uipath.com/a6b81dc2-6c00-4ef9-bf6c-06fdce7f3574',
+        institution: 'UiPath Academy',
+        degree: 'UiPath Automation Developer Associate',
+        date: '2025',
+      },
+      {
+        href: 'https://credentials.uipath.com/47457649-6dd2-4fdc-a23b-422c1afa08ab#acc.lzfW78CA',
+        institution: 'UiPath Academy',
+        degree: 'UiPath Academy Automation Explorer',
+        date: '2025',
+      },
       {
         href: 'https://www.udemy.com/certificate/UC-f16a5fa0-576f-48c2-8155-313b3aebf5e4/',
         institution: 'Udemy',
@@ -128,7 +155,7 @@ const certification = [
 const skills = {
   title: 'My skills',
   description:
-    'As a Frontend Developer, I am skilled in a variety of web technologies, including HTML, CSS, JavaScript, and React JS, complemented by advanced tools like Next.js and Figma for UI/UX design. I create responsive and visually appealing websites using Bootstrap and Tailwind CSS, ensuring they work smoothly across different browsers. My background also includes practical knowledge of Node.js and Express.js, enhancing my ability to integrate front and back-end systems seamlessly. Dedicated to continuous learning and collaboration, I constantly refine my skills to deliver top-notch web solutions',
+    'I specialize in building responsive, high-performance websites using HTML, CSS, JavaScript, TypeScript, React JS, Next.js, and React Native, with styling frameworks like Tailwind CSS, Bootstrap, and NativeWind. I have practical experience with WordPress, PHP, MySQL, and Appwrite, giving me flexibility across front-end and back-end development. My workflow includes creating intuitive UI/UX designs in Figma and applying automation through UiPath RPA to optimize processes. I’m dedicated to staying current with modern tools and best practices to deliver clean, scalable solutions',
   skillList: [
     { icon: <FaFigma />, name: 'Figma' },
     { icon: <FaHtml5 />, name: 'HTML5' },
@@ -138,6 +165,10 @@ const skills = {
     { icon: <FaReact />, name: 'React' },
     { icon: <SiNextdotjs />, name: 'Next.js' },
     { icon: <FaNodeJs />, name: 'Node.js' },
+    { icon: <FaWordpress />, name: 'Wordpress' },
+    { icon: <FaPhp />, name: 'PHP' },
+    { icon: <FaRobot />, name: 'UiPath' },
+    { icon: <FaGoogle />, name: 'Google' },
   ],
 };
 

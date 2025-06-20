@@ -27,7 +27,7 @@ function Home() {
             </p>
             {/* BUTTONS and SOCIAL */}
             <div className='flex flex-col xl:flex-row items-center gap-8 '>
-              <Link href='/Resume-Front-End-Dev.pdf'
+              <Link href='/Resume6.20.2025.pdf'
               alt='my resume'
               target='_blank'
               rel='noopener norefferer'>
